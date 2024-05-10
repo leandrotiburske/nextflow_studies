@@ -3,10 +3,10 @@
 
 ## Introduction
 
-Nextflow is an open-source programming language designed to create reproducible and scalable workflows. Is is vastly used to orchestrate [bioinformatics](https://www.youtube.com/watch?v=W-Ov2cUaYQY) pipelines. 
+Nextflow is a free open-source programming language designed to create reproducible and scalable workflows! Is is vastly used to orchestrate [bioinformatics](https://www.youtube.com/watch?v=W-Ov2cUaYQY) pipelines. 
 
-> [!ALERT]
-> The contents in this repository are based on official Nextflow tutorials and do not replace them.
+> [!WARNING]
+> The contents in this repository are based on official [Nextflow tutorials](https://training.nextflow.io/basic_training/) and do not replace them.
 
 ## Installation
 
