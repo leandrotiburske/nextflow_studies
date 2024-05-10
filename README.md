@@ -3,10 +3,10 @@
 
 ## Introduction
 
-Nextflow is a free open-source programming language designed to create reproducible and scalable workflows! Is is vastly used to orchestrate [bioinformatics](https://www.youtube.com/watch?v=W-Ov2cUaYQY) pipelines. 
+&nbsp;&nbsp;&nbsp;&nbsp;Nextflow is a free open-source programming language designed to create reproducible and scalable workflows! Is is vastly used to orchestrate [bioinformatics](https://www.youtube.com/watch?v=W-Ov2cUaYQY) pipelines. 
 
 > [!WARNING]
-> The contents in this repository are based on official [Nextflow tutorials](https://training.nextflow.io/basic_training/) and do not replace them.
+> The materials in this repository are utilized for my personal studies, derived from official [Nextflow tutorials](https://training.nextflow.io/basic_training/), and should be considered as additional resources, not substitutes.
 
 ## Installation
 
@@ -31,3 +31,11 @@ chmod +x nextflow
 
 > [!NOTE]
 > Bash, Java 11 (or later, up to 21), Git and Docker are required
+
+
+```{mermaid}
+flowchart TD;
+    A --> B;
+    B --> C;
+    C --> D;
+```
