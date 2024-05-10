@@ -24,3 +24,5 @@ curl -s https://get.nextflow.io | bash
 chmod +x nextflow
 ```
 
+> [!NOTE]
+> It is necessary to have Bash, Java 11 (or later, up to 21), Git and Docker installed
