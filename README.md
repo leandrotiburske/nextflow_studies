@@ -1,1 +1,1 @@
-# Welcome to my <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.physalia-courses.org%2Fcourses-workshops%2Fcourse60%2F&psig=AOvVaw2_H6GWnGO7-kXtoWmKQ0Ht&ust=1715446780490000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIjXmLLHg4YDFQAAAAAdAAAAABAa" width="50"> studies repository!
+# Welcome to my      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_Nextflow_%28new%29.png/800px-Logo_Nextflow_%28new%29.png" width="150">     studies repository!
