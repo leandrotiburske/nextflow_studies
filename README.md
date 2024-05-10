@@ -38,9 +38,9 @@ chmod +x nextflow
 
 ### Processes
 
-&nbsp;&nbsp;&nbsp;&nbsp;A **process** in Nextflow can be written in any programming language executable by Linux, such as Python, Shell Bash and Ruby. A process is isolated from other processes and are executed independently. A process example is the [*FastQC*](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) algorithm, used to analyse DNA sequencing quality.
+&nbsp;&nbsp;&nbsp;&nbsp;A **process** in Nextflow can be written in any programming language executable by Linux, such as Python, Shell Bash and Ruby. A process is isolated from other processes and are executed independently. A process example is the [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) algorithm, used to analyse DNA sequencing quality.
 
-&nbsp;&nbsp;&nbsp;&nbsp;In this documentation, each process will be represented in figures by a hexagon node. A process representation is shown below:
+&nbsp;&nbsp;&nbsp;&nbsp;In this documentation, each process will be represented in diagrams by a hexagon node. A process representation is shown below:
 
 ```mermaid
 
@@ -65,7 +65,7 @@ flowchart LR
     Process{{Process}} --> Output(["Output\n(Channel)"])
 ```
 
-&nbsp;&nbsp;&nbsp;&nbsp;Finally, a workflow is the pipeline execution of the pipeline made of the interaction of processes via channels. Considering the FastQC example, its input channel would be [FASTQ](https://knowledge.illumina.com/software/general/software-general-reference_material-list/000002211) files and its output channel would be output directories:
+&nbsp;&nbsp;&nbsp;&nbsp;Finally, a workflow is the execution of the pipeline made of the interaction of processes via channels. Considering the FastQC example, its input channel would be [FASTQ](https://knowledge.illumina.com/software/general/software-general-reference_material-list/000002211) files and its output channel would be output directories:
 
 ```mermaid
 flowchart LR
