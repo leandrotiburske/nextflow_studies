@@ -50,12 +50,17 @@ flowchart LR;
 
 ### Channel
 
-&nbsp;&nbsp;&nbsp;&nbsp;Channels are asynchronous first-in, first-out ([FIFO]()) queues
-
-In this documentation, each channel will be represented by a stadium-shaped node, as shown below:
+&nbsp;&nbsp;&nbsp;&nbsp;The only way different processes can communicate is through channels. In this documentation, each channel will be represented by a stadium-shaped node, as shown below:
 
 ```mermaid
-
 flowchart LR;
     Channel([This is a Channel]);
+```
+
+&nbsp;&nbsp;&nbsp;&nbsp;Channels are asynchronous first-in, first-out ([FIFO](https://www.geeksforgeeks.org/fifo-vs-lifo-approach-in-programming/)) queues. Basically, every input and every output is considered a channel. 
+
+```mermaid
+flowchart LR
+    Input(["Input\n(Channel)"]) --> Process{{Process}};
+    Process{{Process}} --> Output(["Output\n(Channel)"])
 ```
