@@ -8,6 +8,12 @@
 > [!WARNING]
 > &nbsp;&nbsp;&nbsp;&nbsp;The materials in this repository are utilized for my personal studies, derived from official [Nextflow tutorials](https://training.nextflow.io/basic_training/), and should be considered as additional resources, not substitutes.
 
+## Tips
+
+<img src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png" width="25"> Watch the Nextflow & nf-core tutorials on YouTube (available in [English](https://www.youtube.com/watch?v=nzR8DRq13nE&list=PL3xpfTVZLcNhoWxHR0CS-7xzu5eRT8uHo&pp=iAQB), [Portuguese](https://www.youtube.com/watch?v=751E-yOH7H8&list=PL3xpfTVZLcNhi41yDYhyHitUhIcUHIbJg&pp=iAQB), [French](https://www.youtube.com/watch?v=dk7I5SZgAEU&list=PL3xpfTVZLcNhiv9SjhoA1EDOXj9nzIqdS&pp=iAQB), [Spanish](https://www.youtube.com/watch?v=pGUxK2WnwKs&list=PL3xpfTVZLcNhSlCWVoa3GURacuLWeFc8O&pp=iAQB) and [Hindi](https://www.youtube.com/watch?v=84XtbqRkKSk&list=PL3xpfTVZLcNikun1FrSvtXW8ic32TciTJ&pp=iAQB))
+
+<img src="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg" width ="25"> Listen to the [CHANNELS - The Nextflow Podcast](https://www.nextflow.io/podcasts.html)
+
 ## Installation
 
 &nbsp;&nbsp;&nbsp;&nbsp;In order to install Nextflow on your computer, run the following command in your terminal:
