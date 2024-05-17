@@ -10,11 +10,16 @@
 
 ## <img src="https://raw.githubusercontent.com/nf-core/logos/master/nf-core-logos/nf-core-logo.png" width=150>
 
+&nbsp;&nbsp;&nbsp;&nbsp;[nf-core](https://nf-co.re/) is an incredible community project that aims to create a set of pipelines created with Nextflow!
+
+> [!NOTE]
+> Don't forget to take a look at the [Hackathons](https://nf-co.re/events/hackathon) page!
+
 ## Tips
 
 <img src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png" width="20"> &nbsp;&nbsp;Watch the Nextflow & nf-core tutorials on YouTube (available in [English](https://www.youtube.com/watch?v=nzR8DRq13nE&list=PL3xpfTVZLcNhoWxHR0CS-7xzu5eRT8uHo&pp=iAQB), [Portuguese](https://www.youtube.com/watch?v=751E-yOH7H8&list=PL3xpfTVZLcNhi41yDYhyHitUhIcUHIbJg&pp=iAQB), [French](https://www.youtube.com/watch?v=dk7I5SZgAEU&list=PL3xpfTVZLcNhiv9SjhoA1EDOXj9nzIqdS&pp=iAQB), [Spanish](https://www.youtube.com/watch?v=pGUxK2WnwKs&list=PL3xpfTVZLcNhSlCWVoa3GURacuLWeFc8O&pp=iAQB) and [Hindi](https://www.youtube.com/watch?v=84XtbqRkKSk&list=PL3xpfTVZLcNikun1FrSvtXW8ic32TciTJ&pp=iAQB))
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" width ="20"> &nbsp;&nbsp;Listen to the [CHANNELS - The Nextflow Podcast](https://www.nextflow.io/podcasts.html)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/1982px-Spotify_icon.svg.png" width ="20"> &nbsp;&nbsp;Listen to  [CHANNELS - The Nextflow Podcast](https://www.nextflow.io/podcasts.html)
 
 ## Installation
 
