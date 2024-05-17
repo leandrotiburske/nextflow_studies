@@ -4,7 +4,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;RNA sequencing consists on isolating RNA from samples and fragmenting these molecules so that they are fit for [Illumina sequencing](https://www.illumina.com/science/technology/next-generation-sequencing/sequencing-technology.html). Then, these molecules are reversebly transcribed into complementary DNA (cDNA), which is more stable than RNA. cDNA is prepared for sequencing by ligating adapters. Finally, the samples are ready to be sequenced.
 
-![RNA sequencing steps. Source: https://microbenotes.com/rna-sequencing-principle-steps-types-uses/](https://microbenotes.com/wp-content/uploads/2022/07/RNA-Sequencing.jpg)
+| ![](https://microbenotes.com/wp-content/uploads/2022/07/RNA-Sequencing.jpg)
+|:--:| 
+| *RNA sequencing steps. Source: https://microbenotes.com/rna-sequencing-principle-steps-types-uses/* |
 
 &nbsp;&nbsp;&nbsp;&nbsp;Sequencing results in FASTQ files, examplified below:
 
