@@ -88,3 +88,7 @@ subgraph workflow["DNA sequencing quality analysis workflow"]
     FastQC --> Outdir(["Output directories"])
 end
 ```
+
+### Table of contents
+
+1. [Introduction - *Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/Introduction)
