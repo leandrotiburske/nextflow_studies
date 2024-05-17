@@ -93,3 +93,23 @@ flowchart TB
 ```
 #!/usr/bin/env python
 ```
+
+## Run the script
+
+Run the following command in your terminal:
+
+```
+nextflow run hello.nf
+```
+
+Expected output:
+
+```
+N E X T F L O W  ~  version 23.10.1
+Launching `hello.nf` [fervent_meucci] DSL2 - revision: c0d236525a
+executor >  local (3)
+[76/00188f] process > SPLITLETTERS (1)   [100%] 1 of 1 ✔
+[b7/93c4d0] process > CONVERTTOUPPER (2) [100%] 2 of 2 ✔
+HELLO 
+WORLD!
+```

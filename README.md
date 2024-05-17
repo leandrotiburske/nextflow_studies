@@ -40,7 +40,11 @@ curl -s https://get.nextflow.io | bash
 
 ```
 chmod +x nextflow
+
+sudo mv nextflow /usr/local/bin
 ```
+
+
 
 > [!NOTE]
 > &nbsp;&nbsp;&nbsp;&nbsp;Bash, Java 11 (or later, up to 21), Git and Docker are required
@@ -91,4 +95,4 @@ end
 
 ### Table of contents
 
-1. [Introduction - *Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/Introduction)
+1. [*Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/Introduction)
