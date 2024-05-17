@@ -95,4 +95,5 @@ end
 
 ### Table of contents
 
-1. [*Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/Introduction)
+1. [*Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/1_Introduction)
+2. [Basic RNA-Seq processing workflow](https://github.com/leandrotiburske/nextflow_studies/tree/main/2_RNA-Seq)
