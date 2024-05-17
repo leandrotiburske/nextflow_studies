@@ -1,6 +1,6 @@
 # *Hello, world!* script
 
-The `hello.nf` is a Nextflow script that displays "HELLO WORLD" on-screen. 
+`hello.nf` is a Nextflow script that displays "HELLO WORLD" on-screen. 
 
 Let's analyze it line-by-line:
 
@@ -23,7 +23,7 @@ greeting_ch = Channel.of(params.greeting)
 
 &nbsp;&nbsp;&nbsp;&nbsp;Now, the script defines its first process, called `SPLITLETTERS`, which takes an input value `x` and has an output file that starts with `chunk_*`. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;Note the bash chunk of code between three double quotes after `script`! It uses the `x` variable as input of the `printf` function, which formats the text. Then, its output is passed to the `split` function, that splits the string into chunks of six characters due to the `-b 6` parameter. It also writes the results to output files that start with `chunk_` (according to the `- chunk_` parameter).
+&nbsp;&nbsp;&nbsp;&nbsp;Note the bash chunk of code between three double quotes after `script`! It uses the `x` variable as input of the `printf` function, which formats the text. Then, its output is passed to the `split` function, that splits the string into chunks of six characters due to the `-b 6` parameter. It also writes the results to output files that start with `chunk_` (`chunk_aa` and `chunk_ab`) (according to the `- chunk_` parameter).
 
 ```nextflow
 process SPLITLETTERS { 
@@ -61,7 +61,7 @@ process CONVERTTOUPPER {
 
 ### Workflow
 
-&nbsp;&nbsp;&nbsp;&nbsp;Finally, we can specify what the workflow is with the block of code below. It exports the output of the `SPLITLETTERS` process into the  `letters_ch` channel. Then, the value in `letters_ch` is the input to the `CONVERTTOUPPER` process, which has its output data passed into the `results_ch` channel. The values in `result_ch` is printed to screen by the `.view` operator.  
+&nbsp;&nbsp;&nbsp;&nbsp;Finally, we can specify what the workflow is with the block of code below. It exports the output of the `SPLITLETTERS` process into the  `letters_ch` channel. Then, the value in `letters_ch` is the input to the `CONVERTTOUPPER` process, which has its output data passed into the `results_ch` channel. The `.flatten()` operator splits the two input files into two different elements. The values in `result_ch` is printed to screen by the `.view` operator.  
 
 ```nextflow
 workflow { 
@@ -69,4 +69,27 @@ workflow {
     results_ch = CONVERTTOUPPER(letters_ch.flatten()) 
     results_ch.view { it } 
 } 
+```
+
+## Overview
+
+&nbsp;&nbsp;&nbsp;&nbsp;The following diagram is a visual representation of the channels and processes discussed above:
+
+```mermaid
+flowchart TB
+
+    input(["greeting_ch"]) --> |`Hello world!`| splitletters{{SPLITLETTERS}};
+    splitletters --> |chunk_aa, chunk_ab| letters(["letters_ch"])
+    letters --> |`Hello `, `world!`| converttoupper{{CONVERTTOUPPER}}
+    converttoupper --> |stdout| results([results_ch])
+
+```
+
+
+
+> [!TIP]
+> You can use another programming language instead of Bash, you just have to specify the interpreter. Example:
+
+```
+#!/usr/bin/env python
 ```
