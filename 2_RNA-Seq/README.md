@@ -23,10 +23,30 @@ GATTTGGGGTTCAAAGCAGTATCGATCAAATAGTAAATCCATTTGTTCAACTCACAGTTT
 
 ## Workflow parameters
 
+&nbsp;&nbsp;&nbsp;&nbsp;The workflow parameters are defined in the block of code below. They include the FASTQ files path (`params.reads`), the reference transcriptome file (`params.transcriptome_file`), the MultiQC results directory (`params.multiqc`) and the output directory (`params.outdir`). 
+
 ```
+// Define parameters
 params.reads = "$projectDir/data/ggal/gut_{1,2}.fq"
 params.transcriptome_file = "$projectDir/data/ggal/transcriptome.fa"
 params.multiqc = "$projectDir/multiqc"
+params.outdir = "results"
 
-println "reads: $params.reads"
+// Print parameters on-screen
+log.info """\
+    R N A S E Q - N F   P I P E L I N E
+    ===================================
+    transcriptome: ${params.transcriptome_file}
+    reads        : ${params.reads}
+    outdir       : ${params.outdir}
+    multiqc      : ${params.multiqc}
+    """
+```
+
+
+
+```mermaid
+flowchart LR
+    Input([transcriptome_file]) --> index{{INDEX}};
+    index --> |salmon_index| index_ch([index_ch])
 ```
