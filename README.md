@@ -97,3 +97,4 @@ end
 
 1. [*Hello world!* script](https://github.com/leandrotiburske/nextflow_studies/tree/main/1_Introduction)
 2. [Basic RNA-Seq processing workflow](https://github.com/leandrotiburske/nextflow_studies/tree/main/2_RNA-Seq)
+3. [Details about channels](https://github.com/leandrotiburske/nextflow_studies/tree/main/3_Channels)
